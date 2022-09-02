@@ -1,6 +1,6 @@
 # First things first: Debloat Windows
 
-- [Go to the link at the bottom of the README.md](https://github.com/Sycnex/Windows10Debloater)
+- [Windows10Debloater](https://github.com/Sycnex/Windows10Debloater)
 
 ## Software to Install in C:\Software and then set it all as Environment Variable PATH
 
