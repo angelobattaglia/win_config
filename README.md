@@ -27,8 +27,8 @@ Set-ExecutionPolicy AllSigned
 - Web Browser: Ungoogled Chromium
 - Terminal Emulators: Windows Terminal, cmder
 - Text Editors: Neovim, VSCode, Visual Studio, Eclipse
-- Multimedia: mpv, ffmpeg, pandoc, yt-dlp, SumatraPDF, Xournalpp, Kdenlive, GIMP, OBS, Draw.io
-- Dev: Strawberry Perl, MinGW, cmake, tcc, git, MiKTeX, Python, Anaconda, Julia, golang, R, Node.js, Docker, Java Corretto, [the Build Tools for Visual Studio](https://www.jaacostan.com/2019/12/rust-error-linker-linkexe-not-found.html#:~:text=While%20compiling%20Rust%20program%20in,Tools%20for%20Visual%20Studio%202019)
+- Multimedia: mpv, ffmpeg, pandoc, yt-dlp, SumatraPDF, Xournalpp, Kdenlive, GIMP, OBS, Draw.io, [PDFtk](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/), CDBurnerXp, rufus, qBittorrent, Emule
+- Dev: Strawberry Perl, MinGW, cmake, tcc, git, MiKTeX, Python, Anaconda, Julia, golang, R, Node.js, Docker, JDK Corretto, [the Build Tools for Visual Studio](https://www.jaacostan.com/2019/12/rust-error-linker-linkexe-not-found.html#:~:text=While%20compiling%20Rust%20program%20in,Tools%20for%20Visual%20Studio%202019)
 - Package Managers: npm, pip, nuget, winget, Scoop, Chocolatey
 - Other: MkDocs, Hugo, WinRar, Google Earth Pro, Stellarium
 
