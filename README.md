@@ -30,7 +30,7 @@ Set-ExecutionPolicy AllSigned
 - Dev: Strawberry Perl, MinGW, cmake, tcc, git, MiKTeX, Python, Anaconda, Julia, golang, R, Node.js, Docker, JDK Corretto, [the Build Tools for Visual Studio](https://www.jaacostan.com/2019/12/rust-error-linker-linkexe-not-found.html#:~:text=While%20compiling%20Rust%20program%20in,Tools%20for%20Visual%20Studio%202019)
 - Package Managers: npm, pip, nuget, winget, Scoop, Chocolatey
 - Other: MkDocs, Hugo, WinRar, Google Earth Pro, Stellarium, QCAD
-- Browser extensions: I don't care about cookies, Unhook, Shazam
+- Browser extensions: I don't care about cookies, Unhook, Shazam, instagram story hider, insta feed eradicator
 
 ## Examples
 
@@ -46,25 +46,4 @@ yt-dlp --extract-audio --audio-format mp3 https://www.youtube.com/watch?v=VideoH
 
 ```powershell
 ffmpeg -i filename.mkv filename.mp4
-```
-
-## USAGE of the profile.code-profile for Visual Studio Code
-
-Press
-
-```keyboard
-ctrl + shift + p
-```
-
-.. then digit ..
-
-```keyboard
-import settings from a profile
-```
-
-.. and just import the file "profile.code-profile" from the right location ..
-to export setting instead
-
-```keyboard
-export settings ..
 ```
