@@ -31,6 +31,7 @@ Set-ExecutionPolicy AllSigned
 - Package Managers: npm, pip, nuget, winget, Scoop, Chocolatey
 - Other: MkDocs, Hugo, WinRar, Google Earth Pro, Stellarium, QCAD
 - Browser extensions: I don't care about cookies, Unhook, Shazam, instagram story hider, insta feed eradicator
+- [Remove Quick Access bloat](https://www.minitool.com/news/windows-11-quick-access.html)
 
 ## Examples
 
