@@ -22,7 +22,7 @@ Set-ExecutionPolicy Unrestricted
 
 ## Software to Install
 
-![Software Installed](./assets/SoftwareInstalled.jpg)
+![Software Installed](./assets/SoftwareInstalled.png)
 ![Bar](./assets/Bar.jpg)
 
 - Utilities: Windows Terminal, Brave browser
