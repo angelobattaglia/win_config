@@ -2,7 +2,7 @@
 
 An opinionated way to configure a Windows system with zero compromises.
 
-- C:\Datas: storing Datas
+- C:\Datas: storing Datas (optional)
 - C:\Git: storing Git reposistories
 - C:\Software: directories of installed programs
 
@@ -16,7 +16,8 @@ As admin,
 # Check if it's restricted
 Get-ExecutionPolicy 
 # Execution policy
-Set-ExecutionPolicy AllSigned
+# Set-ExecutionPolicy AllSigned
+Set-ExecutionPolicy Unrestricted
 ```
 
 ## Software to Install
@@ -30,8 +31,15 @@ Set-ExecutionPolicy AllSigned
 - Dev: Strawberry Perl, MinGW, cmake, tcc, git, MiKTeX, Python, Anaconda, Julia, golang, R, Node.js, Docker, JDK Corretto, [the Build Tools for Visual Studio](https://www.jaacostan.com/2019/12/rust-error-linker-linkexe-not-found.html#:~:text=While%20compiling%20Rust%20program%20in,Tools%20for%20Visual%20Studio%202019)
 - Package Managers: npm, pip, nuget, winget, Scoop, Chocolatey
 - Other: MkDocs, Hugo, WinRar, Google Earth Pro, Stellarium, QCAD
+- [Python-Windows Store issue](https://superuser.com/questions/1770299/override-windows-store-open-action-when-launching-python-in-powershell)
 - Browser extensions: I don't care about cookies, Unhook, Shazam, instagram story hider, insta feed eradicator
 - [Remove Quick Access bloat](https://www.minitool.com/news/windows-11-quick-access.html)
+
+## Other interesting scripts
+
+- [NotCPUCores](https://github.com/rcmaehl/NotCPUCores)
+- [Sophia-Script-for-Windows](https://github.com/farag2/Sophia-Script-for-Windows)
+- [Activation Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)
 
 ## Examples
 
