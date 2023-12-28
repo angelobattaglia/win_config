@@ -1,4 +1,4 @@
-# win-config
+# win_config
 
 An opinionated way to configure a Windows system with zero compromises.
 
