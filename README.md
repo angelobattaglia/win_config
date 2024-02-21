@@ -25,15 +25,48 @@ Set-ExecutionPolicy Unrestricted
 ![Software Installed](./assets/SoftwareInstalled.png)
 ![Bar](./assets/Bar.jpg)
 
-- Utilities: Windows Terminal, Brave browser
-- Editors: Neovim, VSCode, Eclipse
-- Multimedia: mpv, ffmpeg, pandoc, yt-dlp, SumatraPDF, Xournalpp, OBS, Draw.io, [PDFtk](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/), CDBurnerXp, rufus, qBittorrent, Emule, 7-Zip, Mp3tag
-- Dev: Strawberry Perl, MinGW, cmake, tcc, git, MiKTeX, Python, Anaconda, Julia, golang, R, Node.js, Docker, JDK Corretto, [the Build Tools for Visual Studio](https://www.jaacostan.com/2019/12/rust-error-linker-linkexe-not-found.html#:~:text=While%20compiling%20Rust%20program%20in,Tools%20for%20Visual%20Studio%202019)
-- Package Managers: npm, pip, nuget, winget, Scoop, Chocolatey
-- Other: MkDocs, Hugo, WinRar, Google Earth Pro, Stellarium, QCAD
-- [Python-Windows Store issue](https://superuser.com/questions/1770299/override-windows-store-open-action-when-launching-python-in-powershell)
-- Browser extensions: I don't care about cookies, Unhook, Shazam, instagram story hider, insta feed eradicator
-- [Remove Quick Access bloat](https://www.minitool.com/news/windows-11-quick-access.html)
+### 🌐 Utilities
+- **Windows Terminal**
+- **Brave Browser**
+
+### 📝 Editors
+- **Neovim**
+- **R-Studio**
+- **VSCode**
+- **Eclipse**
+
+### 🎥 Multimedia
+- **mpv**, **SumatraPDF** 
+- [**ImageMagick**](https://imagemagick.org/index.php)
+- **ffmpeg**, **pandoc**, **yt-dlp**
+- [**PDFtk**](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/)
+- **Xournalpp**, **OBS**, **Draw.io**, **Inkscape**, **GIMP**
+- **CDBurnerXP**, **rufus**
+- **qBittorrent**, **Emule**
+- **7-Zip**, **Mp3tag**
+
+### 💻 Development Tools
+- **Strawberry Perl**, **MinGW**, **cmake**, **tcc**
+- **git**, **MiKTeX**, **Python**, **Anaconda**
+- **Julia**, **golang**, **R**, **Node.js**
+- **Docker**, **JDK Corretto**
+- [**Build Tools for Visual Studio**](https://www.jaacostan.com/2019/12/rust-error-linker-linkexe-not-found.html#:~:text=While%20compiling%20Rust%20program%20in,Tools%20for%20Visual%20Studio%202019)
+
+### 📦 Package Managers
+- **npm**, [**pip**](https://bootstrap.pypa.io/get-pip.py)
+- **nuget**, **winget**, **Scoop**, **Chocolatey**
+
+### 🌟 Other Tools
+- **MkDocs**, **Hugo**, **WinRar**
+- **Google Earth Pro**, **Stellarium**, **QCAD**
+
+### 🔗 Useful Links
+- [**Override Windows Store Python issue**](https://superuser.com/questions/1770299/override-windows-store-open-action-when-launching-python-in-powershell)
+- [**Remove Quick Access bloat in Windows 11**](https://www.minitool.com/news/windows-11-quick-access.html)
+
+### 🌐 Browser Extensions
+- I don't care about cookies, Unhook, Shazam
+- Instagram story hider, Insta feed eradicator
 
 ## Other interesting scripts
 
