@@ -44,6 +44,8 @@ Set-ExecutionPolicy Unrestricted
 - **CDBurnerXP**, **rufus**
 - **qBittorrent**, **Emule**
 - **7-Zip**, **Mp3tag**
+- [**Ardour**](https://ardour.org/)
+- [**GUITAR PRO**](https://www.guitar-pro.com/)
 
 ### 💻 Development Tools
 - **Strawberry Perl**, **MinGW**, **cmake**, **tcc**
