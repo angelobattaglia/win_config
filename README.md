@@ -70,6 +70,9 @@ Set-ExecutionPolicy Unrestricted
 - I don't care about cookies, Unhook, Shazam
 - Instagram story hider, Insta feed eradicator
 
+### Android apps
+- shizuku, canta, f-droid
+
 ## Other interesting scripts
 
 - [NotCPUCores](https://github.com/rcmaehl/NotCPUCores)
