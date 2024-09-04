@@ -72,6 +72,7 @@ Set-ExecutionPolicy Unrestricted
 
 ### Android apps
 - shizuku, canta, f-droid
+- [adb](https://developer.android.com/tools/releases/platform-tools)
 
 ## Other interesting scripts
 
