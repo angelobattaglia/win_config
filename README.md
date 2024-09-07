@@ -79,6 +79,9 @@ Set-ExecutionPolicy Unrestricted
 - [NotCPUCores](https://github.com/rcmaehl/NotCPUCores)
 - [Sophia-Script-for-Windows](https://github.com/farag2/Sophia-Script-for-Windows)
 - [Activation Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)
+- [Windows10Debloater](https://github.com/Sycnex/Windows10Debloater)
+- [Win11Debloat](https://github.com/Raphire/Win11Debloat)
+- [tiny11](https://github.com/ntdevlabs/tiny11builder)
 
 ## Examples
 
