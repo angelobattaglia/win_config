@@ -61,6 +61,8 @@ Set-ExecutionPolicy Unrestricted
 ### 🌟 Other Tools
 - **MkDocs**, **Hugo**, **WinRar**
 - **Google Earth Pro**, **Stellarium**, **QCAD**
+- **[HWinfo (information on the system hardware and software)](https://www.hwinfo.com/download/)**
+- **[Geek uninstaller (third-party uninstaller for Windows 11 that goes beyond the default Windows uninstaller by removing leftover files, registry entries, and bloat from software installations)](https://geekuninstaller.com/)**
 
 ### 🔗 Useful Links
 - [**Override Windows Store Python issue**](https://superuser.com/questions/1770299/override-windows-store-open-action-when-launching-python-in-powershell)
