@@ -101,3 +101,47 @@ yt-dlp --extract-audio --audio-format mp3 https://www.youtube.com/watch?v=VideoH
 ```powershell
 ffmpeg -i filename.mkv filename.mp4
 ```
+## Other things to do
+
+On cmd.exe, as administrator
+
+Verify that all drives are decrypted. Use the status command to verify all drives are fully decrypted:
+
+```batch
+manage-bde -status
+```
+
+Each drive should show:
+
+```
+Conversion Status: Fully Decrypted
+Percentage Encrypted: 0.0%
+```
+
+If not, then uncrypt them all. 
+Clear Auto-Unlock Keys (If Needed). After the OS volume (C:) is fully decrypted, you can clear any remaining auto-unlock
+keys associated with the data volumes (D: and E:):
+```batch
+manage-bde -autounlock -clearallkeys C:
+```
+
+Since C: is already decrypted after this (always check, repeatedly, with `manage-bde -status`), you no longer need to clear auto-unlock keys. 
+Instead, proceed with decrypting the data drives (D: and E:).
+
+Run these commands individually:
+
+```batch
+manage-bde -off D:
+manage-bde -off E:
+```
+
+this would de-activate bitlocker, for the `C:` and `D:` drives, for example
+
+---
+
+if on `C:\` the directories can't be deleted
+```batch
+takeown /f C:\Windows.old /r /d y
+icacls C:\Windows.old /t /grant everyone:F
+rmdir /S /Q Windows.old
+```
