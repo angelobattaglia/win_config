@@ -101,7 +101,19 @@ yt-dlp --extract-audio --audio-format mp3 https://www.youtube.com/watch?v=VideoH
 ```powershell
 ffmpeg -i filename.mkv filename.mp4
 ```
-## Other things to do
+
+## BitLocker
+
+### Windows Editions with BitLocker.
+BitLocker is available only on the following editions of Windows:
+
+1. Windows Pro
+2. Windows Enterprise
+3. Windows Education
+
+Windows Home editions do not include BitLocker.
+
+### Removing BitLocker
 
 On cmd.exe, as administrator
 
@@ -139,9 +151,50 @@ this would de-activate bitlocker, for the `C:` and `D:` drives, for example
 
 ---
 
+## Deleting the `C:\Windows.old` repository
+
 if on `C:\` the directories can't be deleted
 ```batch
 takeown /f C:\Windows.old /r /d y
 icacls C:\Windows.old /t /grant everyone:F
 rmdir /S /Q Windows.old
 ```
+
+## Some notes on Hibernation
+
+Disable Hibernate:
+1. Open Command Prompt as Administrator:
+2. Search for "Command Prompt" in the Start menu, right-click it, and select Run as administrator.
+3. Type the following command and press Enter:
+
+    ```batch
+    powercfg -h off
+    ```
+4. Run the Command to Enable Hibernation:
+    ```batch
+    powercfg -h on
+    ```
+
+Verify Hibernation is Enabled:
+1. Pressing Win + I to open Settings.
+2. Navigating to System > Power & battery > Advanced settings.
+3. Checking if Hibernate is listed under power options (if not, proceed to the next section to add it to the power menu).
+
+## Disable Sticky Keys
+
+On Command Prompt (Admin):
+
+1. Disable Sticky Keys: Run the following command in the command prompt:
+
+```cmd
+reg add "HKEY_CURRENT_USER\Control Panel\Accessibility\StickyKeys" /v "Flags" /t REG_DWORD /d 0 /f
+```
+This will disable Sticky Keys.
+
+2. Disable the Shortcut: 
+If you want to disable the shortcut (pressing Shift five times to enable Sticky Keys), use this command:
+
+```cmd
+reg add "HKEY_CURRENT_USER\Control Panel\Accessibility\HotKeys" /v "StickyKeys" /t REG_DWORD /d 0 /f
+```
+You can restart your computer for the changes to take effect
