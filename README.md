@@ -198,3 +198,5 @@ If you want to disable the shortcut (pressing Shift five times to enable Sticky 
 reg add "HKEY_CURRENT_USER\Control Panel\Accessibility\HotKeys" /v "StickyKeys" /t REG_DWORD /d 0 /f
 ```
 You can restart your computer for the changes to take effect
+
+## make a local account
