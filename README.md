@@ -182,7 +182,7 @@ Verify Hibernation is Enabled:
 
 ## Disable Sticky Keys
 
-On Command Prompt (Admin):
+On Command Prompt (as admin):
 
 1. Disable Sticky Keys: Run the following command in the command prompt:
 
@@ -200,3 +200,5 @@ reg add "HKEY_CURRENT_USER\Control Panel\Accessibility\HotKeys" /v "StickyKeys" 
 You can restart your computer for the changes to take effect
 
 ## make a local account
+
+Make a local account instead of using your MS one
