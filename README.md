@@ -199,6 +199,10 @@ reg add "HKEY_CURRENT_USER\Control Panel\Accessibility\HotKeys" /v "StickyKeys" 
 ```
 You can restart your computer for the changes to take effect
 
-## make a local account
+## Make a local account
 
 Make a local account instead of using your MS one
+
+## DDU: Display Driver Uninstaller
+
+Clean graphics driver installation, from wagnardsoft.com
