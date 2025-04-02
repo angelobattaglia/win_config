@@ -206,3 +206,25 @@ Make a local account instead of using your MS one
 ## DDU: Display Driver Uninstaller
 
 Clean graphics driver installation, from wagnardsoft.com
+
+## Adding Git-Bash to the Windows Terminal
+
+1. Install Git
+2. Add Git to PATH
+3. Add
+```json
+{
+    "commandline": "C:\\Software\\Git\\bin\\bash.exe -li",
+    "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+    "hidden": false,
+    "name": "Git Bash",
+    "startingDirectory": "%USERPROFILE%"
+}
+```
+to the Windows Terminal configuration file, in the `"profiles": {"list": []}` section
+4. Set the profile as default
+
+## Install Make for Windows
+
+Install Make for Windows
+- [Make for Windows](https://gnuwin32.sourceforge.net/packages/make.htm)
