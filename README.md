@@ -221,7 +221,8 @@ Clean graphics driver installation, from wagnardsoft.com
     "startingDirectory": "%USERPROFILE%"
 }
 ```
-to the Windows Terminal configuration file, in the `"profiles": {"list": []}` section
+to the Windows Terminal configuration file, in the `"profiles": {"list": []}` section.
+
 4. Set the profile as default
 
 ## Install Make for Windows
