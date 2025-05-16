@@ -28,6 +28,7 @@ Set-ExecutionPolicy Unrestricted
 ### 🌐 Utilities
 - **Windows Terminal**
 - **Brave Browser**
+- [**Everything: Locate files and folders by name instantly**](https://www.voidtools.com/)
 
 ### 📝 Editors
 - **Neovim**
