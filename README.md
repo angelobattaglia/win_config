@@ -200,13 +200,9 @@ reg add "HKEY_CURRENT_USER\Control Panel\Accessibility\HotKeys" /v "StickyKeys" 
 ```
 You can restart your computer for the changes to take effect
 
-## Make a local account
-
-Make a local account instead of using your MS one
-
 ## DDU: Display Driver Uninstaller
 
-Clean graphics driver installation, from wagnardsoft.com
+Clean graphics driver installation and uninstallation, from wagnardsoft.com
 
 ## Adding Git-Bash to the Windows Terminal
 
@@ -230,3 +226,7 @@ to the Windows Terminal configuration file, in the `"profiles": {"list": []}` se
 
 Install Make for Windows
 - [Make for Windows](https://gnuwin32.sourceforge.net/packages/make.htm)
+
+## Make a local account
+
+Make a local account instead of using your MS one
